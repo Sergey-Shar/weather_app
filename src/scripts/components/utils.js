@@ -71,6 +71,4 @@ export function checkDayOrNight(item) {
     }
 }
 
-export function renderCurentData(date) {
-    currentTime.innerText = date
-}
+

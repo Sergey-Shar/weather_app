@@ -1,6 +1,8 @@
 export function createContent(options, a) {
     return `<div class="weater-window__container">
         <div class="weater-window__header">
+        <span class="header__search-btn-icon" data-btn="popup"> <i class="fas fa-search"
+                            data-btn="popup"></i> </span>
             <p class="weater-window__city">${options.name}</p>
             <p class="weater-window__date">${options.country}</p>
         </div>

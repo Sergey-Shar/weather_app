@@ -1,4 +1,4 @@
-import {checkDayOrNight,renderCurentData,renderIcons} from "./utils.js";
+import {checkDayOrNight,renderIcons} from "./utils.js";
 import {icons} from "./icons.js";
 import {KEY} from "./key.js"
 
@@ -31,7 +31,6 @@ export const getData = (name) => {
                 renderIcons(copy, icons.defaultIcon)
             }
             checkDayOrNight(nigthDay)
-            renderCurentData(copy.localtime)
         })
         .catch(err => {
             console.log(err)
