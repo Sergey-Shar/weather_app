@@ -1,13 +1,6 @@
-import {
-    createPopup
-} from "./popup.js";
-import {
-    getData
-} from "./get-request.js";
-import {
-    createContent
-} from "./weather-window.js";
-const moment = require('moment');
+import {createPopup} from "./popup.js";
+import {getData} from "./get-request.js";
+import { createContent} from "./weather-window.js";
 
 
 const currentTime = document.querySelector('.header__time')
@@ -79,5 +72,5 @@ export function checkDayOrNight(item) {
 }
 
 export function renderCurentData(date) {
-    currentTime.innerText = moment(date).format('HH:mm DD.MM.YYYY')
+    currentTime.innerText = date
 }

@@ -1,15 +1,6 @@
-import {
-    checkDayOrNight,
-    renderCurentData,
-    renderIcons
-} from "./utils.js";
-import {
-    icons
-} from "./icons.js";
-import {
-    KEY
-} from "./key.js"
-
+import {checkDayOrNight,renderCurentData,renderIcons} from "./utils.js";
+import {icons} from "./icons.js";
+import {KEY} from "./key.js"
 
 export const getData = (name) => {
     fetch(`${KEY}&query=${name}`)
