@@ -1,0 +1,1 @@
+export const KEY = 'https://api.weatherstack.com/current?access_key=d4b9d0e22483af16400a43e32a22db47'
