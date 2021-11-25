@@ -1,53 +1,9 @@
 .header {
-
-    position: absolute;
-    height: 40rem;
-    min-width: 100%;
-    top: 0rem;
-
-    &__container {
-        padding: 0 25rem 0 25rem;
-    }
-
-    &__flex {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 40rem;
-    }
-
-    &__time {
-        font-size: 20rem;
-       
-
-    }
-
-    &__search-container {
-        position: relative;
-    }
-
     &__search-btn-icon {
         position: absolute;
-        right: 15rem;
-        bottom: -10rem;
+        right: 3rem;
+        top: 13rem;
         cursor: pointer;
         font-size: 20rem;
-       
-    }
-
-    &__search {
-        height: 25rem;
-        max-width: 300rem;
-        padding-left: 30rem;
-        margin-right: 5rem;
-        border-radius: 5rem;
-    }
-
-    &__search-cansel {
-        position: absolute;
-        bottom: 3rem;
-        right: 55rem;
-        font-size: 20rem;
-        cursor: pointer;
     }
 }
