@@ -1,0 +1,12 @@
+.weater-window {
+
+    background: opacity($color: #000000);
+    max-width: 500rem;
+    height: 80vh;
+    border-radius: 15rem;
+    box-shadow: 0 15rem 28rem rgba(0, 0, 0, 0.25), 0 10rem 10rem rgba(0, 0, 0, 0.22);
+
+    &__container {
+        padding: 0 20rem 0 20rem;
+    }
+}

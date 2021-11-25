@@ -1,0 +1,20 @@
+.weater-window {
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100rem;
+
+    }
+
+    &__city {
+        font-size: 30rem;
+        padding-right: 150rem; 
+       }
+
+
+    &__date {
+        font-size: 25rem;
+    }
+}

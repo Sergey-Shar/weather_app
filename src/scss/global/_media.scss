@@ -1,0 +1,31 @@
+
+@media (max-width: 767px){
+    .weater-window {
+        width: 300rem;
+        &__city{
+            padding-right: 20rem;
+        }
+        &__temperature {
+            bottom: 15rem;
+        }
+        &__temperature-text{
+            font-size: 90rem;
+        }
+        &__information {
+            padding-top: 0;
+        }
+    }
+}
+
+@media (max-width: 320px){
+    .popup{
+        &__search{
+            margin-left: 2%;
+            width: 307rem;
+        }
+        &__icon{
+            top: 25%;
+            right: 12%
+        }
+    }
+}

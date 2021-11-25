@@ -1,0 +1,16 @@
+.wrapper {
+    color: #5F9EA0;
+    background: linear-gradient(45deg, #87CEFA, #F0F8FF);
+
+    &.night {
+        color: #ffffff;
+        background: url('https://img.youscreen.ru/wall/14982522757966/14982522757966_1920x1200.jpg') no-repeat 40%;
+    }
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    overflow: hidden;
+}

@@ -1,0 +1,21 @@
+// Global
+
+@import '../scss/global/reset';
+@import '../scss/global/base';
+@import '../../node_modules/@fortawesome/fontawesome-free/css/all.css';
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+// Components 
+
+@import '../scss/components/wrapper';
+@import '../scss/components/_popup';
+@import '../scss/components/header';
+@import '../scss/components/window';
+@import '../scss/components/header-window';
+@import '../scss/components/main-block';
+@import '../scss/components/footer';
+
+// Media queries
+
+@import '../scss/global/media';
