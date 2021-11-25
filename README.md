@@ -2,7 +2,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project:
-This app is a weather forecast.  To implement it, I used the REST API [REST API](https://weatherstack.com/) 
+This app is a weather forecast.  To implement it, I used the [REST API](https://weatherstack.com/) 
 
 
 
